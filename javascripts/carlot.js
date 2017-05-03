@@ -15,6 +15,7 @@ var CarLot = (function () {
       	console.log("inventory array", inventory);
       	
       	CarLot.writeToDom();
+        CarLot.activateEvents();
       });
 
       inventoryLoader.open("GET", "inventory.json");

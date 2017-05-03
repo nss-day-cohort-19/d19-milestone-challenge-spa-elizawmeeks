@@ -6,7 +6,7 @@ var CarLot = (function (oldCarLot) {
   	console.log("WRITE TO DOM BEBE");
   	for (var i = 0; i < inventory.length; i = i + 3){
   		write.innerHTML += 	`<div class="row">
-  													<div class="col s4">
+  													<div class="col s4 event">
 										          <div class="card">
 										            <div class="card-image">
 										              <img src="img/${inventory[i].image}">
@@ -23,7 +23,7 @@ var CarLot = (function (oldCarLot) {
 										            </div>
 										          </div>
 										        </div>
-										        <div class="col s4">
+										        <div class="col s4 event">
 										          <div class="card">
 										            <div class="card-image">
 										              <img src="img/${inventory[i+1].image}">
@@ -40,7 +40,7 @@ var CarLot = (function (oldCarLot) {
 										            </div>
 										          </div>
 										        </div>
-										        <div class="col s4">
+										        <div class="col s4 event">
 										          <div class="card">
 										            <div class="card-image">
 										              <img src="img/${inventory[i+2].image}">
