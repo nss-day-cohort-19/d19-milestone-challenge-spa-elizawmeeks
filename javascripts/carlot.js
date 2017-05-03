@@ -13,13 +13,16 @@ var CarLot = (function () {
       		inventory.push(inventoryData.cars[i]);
       	}
       	console.log("inventory array", inventory);
+      	
+      	CarLot.writeToDom();
       });
 
       inventoryLoader.open("GET", "inventory.json");
       inventoryLoader.send();
-    }
 
-    getInventory: function (){
+    },
+
+    getInventory: function (prop){
     	return inventory;
     }
   };
