@@ -1,0 +1,4 @@
+var CarLot = (function () {
+  
+
+})(CarLot || {});
