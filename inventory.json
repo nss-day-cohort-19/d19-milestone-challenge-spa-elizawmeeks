@@ -1,0 +1,52 @@
+{
+  "cars": [
+    {
+      "make": "Morris Minor",
+      "model": "Series II",
+      "year": "1955",
+      "image": "49mmseriesii.jpg",
+      "price": "65000",
+      "description": "With this pastel purple Morris Minor Series II, you'll never lose your car in the parking lot."
+    },
+    {
+      "make": "Chevrolet",
+      "model": "Task Force",
+      "year": "1950",
+      "image": "50chevypickup.jpg",
+      "price": "53000",
+      "description": "You could haul something in this Task Force. Or you could make all your friends and enemies yellow with envy."
+    },
+    {
+      "make": "Oldsmobile",
+      "model": "88",
+      "year": "1952",
+      "image": "52oldsmobile.jpg",
+      "price": "72000",
+      "description": "This car isn't actually an Oldsmobile, but it's the only pastel orange car I could find and I couldn't find the make or model. I do know for a fact that it's not an Oldsmobile, though."
+    },
+    {
+      "make": "Ford",
+      "model": "Thunderbird",
+      "year": "1957",
+      "image": "57tbird.jpg",
+      "price": "56000",
+      "description": "And she'll have fun fun fun/'til her daddy takes the T-bird away."
+    },
+    {
+      "make": "Volkswagen",
+      "model": "Beetle",
+      "year": "1962",
+      "image": "62vwbug.jpg",
+      "price": "45000",
+      "description": "Channel your inner hipster."
+    },
+    {
+      "make": "Porsche",
+      "model": "911",
+      "year": "1970",
+      "image": "70porsche911.jpg",
+      "price": "95000",
+      "description": "Channel your inner Richie Rich."
+    }
+  ]
+}

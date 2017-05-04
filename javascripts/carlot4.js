@@ -1,6 +1,6 @@
 var CarLot = (function (oldCarLot) {
   var write = document.getElementById("stickItHere");
-
+  // Function that writes to dom.
   oldCarLot.writeToDom = function(){
   	var inventory = CarLot.getInventory();
   	console.log("WRITE TO DOM BEBE");

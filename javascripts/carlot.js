@@ -1,7 +1,7 @@
 var CarLot = (function () {
   var inventory = [];
-
   return {
+  // XHR Function
     loadInventory: function (callback) {
       var inventoryLoader = new XMLHttpRequest();
 
@@ -22,7 +22,7 @@ var CarLot = (function () {
       inventoryLoader.send();
 
     },
-
+    // Returns Data from XHR
     getInventory: function (prop){
     	return inventory;
     }
